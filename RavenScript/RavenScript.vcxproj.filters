@@ -28,6 +28,12 @@
     <Filter Include="源文件\Value">
       <UniqueIdentifier>{6480a677-cbb3-43d3-b42a-38fe771c0709}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\SyntaxTree">
+      <UniqueIdentifier>{079c497a-db66-476f-81ae-940bf777b510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SyntaxTree">
+      <UniqueIdentifier>{269fc0c0-3955-4902-9896-3c6f087c926d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestTiger\TestTiger.h">
@@ -46,7 +52,7 @@
       <Filter>头文件\Value</Filter>
     </ClInclude>
     <ClInclude Include="Value\RaveArray.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Value</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -72,7 +78,7 @@
       <Filter>源文件\Value</Filter>
     </ClCompile>
     <ClCompile Include="Value\RaveArray.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Value</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

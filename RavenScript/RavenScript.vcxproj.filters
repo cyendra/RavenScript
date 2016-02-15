@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\TestTiger">
+      <UniqueIdentifier>{fc2c955c-8d11-4d88-88dc-d3235e74257b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TestTiger">
+      <UniqueIdentifier>{f6ab8ece-3bf7-4b9b-a1b4-2eac360ded33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TestCase">
+      <UniqueIdentifier>{63519020-dc89-40b1-b1e4-a7bf36981681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Value">
+      <UniqueIdentifier>{9db9d4c3-8a3a-48c8-be52-a0ff5c66d24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Value">
+      <UniqueIdentifier>{6480a677-cbb3-43d3-b42a-38fe771c0709}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestTiger\TestTiger.h">
+      <Filter>头文件\TestTiger</Filter>
+    </ClInclude>
+    <ClInclude Include="Value\RaveValue.h">
+      <Filter>头文件\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="Value\RaveNativePointer.h">
+      <Filter>头文件\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="Value\RaveObject.h">
+      <Filter>头文件\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="Value\RaveString.h">
+      <Filter>头文件\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="Value\RaveArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestTiger\TestTiger.cpp">
+      <Filter>源文件\TestTiger</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCase\TestTestTiger.cpp">
+      <Filter>源文件\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="Value\RaveValue.cpp">
+      <Filter>源文件\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="Value\RaveNativePointer.cpp">
+      <Filter>源文件\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="Value\RaveObject.cpp">
+      <Filter>源文件\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="Value\RaveString.cpp">
+      <Filter>源文件\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="Value\RaveArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

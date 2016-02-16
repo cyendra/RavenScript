@@ -12,10 +12,12 @@ namespace raven {
 		
 		static void PrintMessage(const std::string& string);
 		static void PrintInfo(const std::string& string);
+		static void PrintInfoInt(const int i);
 		static void PrintError(const std::string& string);
 		static void PushTest(TestProc testProc);
-		static void AddError();
 		static void RunAndDisposeTests();
+
+		static int errorNumber;
 	};
 
 #define TEST_CHECK_ERROR(CONDITION,DESCRIPTION)												\
@@ -57,6 +59,8 @@ do																							\
 }while(0)
 
 #define TEST_PRINT(x) raven::TestTiger::PrintInfo(x)
+
+#define TEST_PRINT_INT(x) raven::TestTiger::PrintInfoInt(x)
 
 #define TEST_EXCEPTION(STATEMENT,EXCEPTION,ASSERT_FUNCTION)									\
 try																							\

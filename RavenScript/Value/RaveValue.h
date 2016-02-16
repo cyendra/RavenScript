@@ -8,7 +8,7 @@ namespace raven {
 	class RaveValue {
 
 	public:
-		static enum ValueType {
+		enum ValueType {
 			BOOLEAN_VALUE = 1,
 			INT_VALUE,
 			DOUBLE_VALUE,

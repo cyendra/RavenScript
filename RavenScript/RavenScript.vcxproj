@@ -118,6 +118,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Lexer\Lexer.h" />
+    <ClInclude Include="Lexer\Token.h" />
+    <ClInclude Include="SyntaxTree\Expression.h" />
+    <ClInclude Include="SyntaxTree\Node.h" />
+    <ClInclude Include="SyntaxTree\Statement.h" />
     <ClInclude Include="TestTiger\TestTiger.h" />
     <ClInclude Include="Value\RaveArray.h" />
     <ClInclude Include="Value\RaveNativePointer.h" />
@@ -126,9 +131,15 @@
     <ClInclude Include="Value\RaveValue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Lexer\Lexer.cpp" />
+    <ClCompile Include="Lexer\Token.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SyntaxTree\Expression.cpp" />
+    <ClCompile Include="SyntaxTree\Node.cpp" />
+    <ClCompile Include="SyntaxTree\Statement.cpp" />
     <ClCompile Include="TestCase\TestTestTiger.cpp" />
     <ClCompile Include="TestTiger\TestTiger.cpp" />
+    <ClCompile Include="TestToken.cpp" />
     <ClCompile Include="Value\RaveArray.cpp" />
     <ClCompile Include="Value\RaveNativePointer.cpp" />
     <ClCompile Include="Value\RaveObject.cpp" />

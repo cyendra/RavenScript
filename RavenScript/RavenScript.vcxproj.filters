@@ -34,6 +34,18 @@
     <Filter Include="源文件\SyntaxTree">
       <UniqueIdentifier>{269fc0c0-3955-4902-9896-3c6f087c926d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Parser">
+      <UniqueIdentifier>{5112a20b-4c47-4f38-9e88-8e4dfebe205e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Parser">
+      <UniqueIdentifier>{637dfe10-7fab-4b6c-a5c7-423ba6d28670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Lexer">
+      <UniqueIdentifier>{a24493dd-930b-46dc-8cce-ad4c1457f841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lexer">
+      <UniqueIdentifier>{6d01373e-b0f4-4f66-9072-68109ce3a4de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestTiger\TestTiger.h">
@@ -53,6 +65,21 @@
     </ClInclude>
     <ClInclude Include="Value\RaveArray.h">
       <Filter>头文件\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxTree\Node.h">
+      <Filter>头文件\SyntaxTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxTree\Statement.h">
+      <Filter>头文件\SyntaxTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxTree\Expression.h">
+      <Filter>头文件\SyntaxTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer\Token.h">
+      <Filter>头文件\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer\Lexer.h">
+      <Filter>头文件\Lexer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +106,24 @@
     </ClCompile>
     <ClCompile Include="Value\RaveArray.cpp">
       <Filter>源文件\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxTree\Node.cpp">
+      <Filter>源文件\SyntaxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxTree\Statement.cpp">
+      <Filter>源文件\SyntaxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxTree\Expression.cpp">
+      <Filter>源文件\SyntaxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer\Token.cpp">
+      <Filter>源文件\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="TestToken.cpp">
+      <Filter>源文件\TestCase</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer\Lexer.cpp">
+      <Filter>源文件\Lexer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

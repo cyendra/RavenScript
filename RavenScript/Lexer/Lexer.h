@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 #include <deque>
-
+#include <sstream>
 #include "Token.h"
 
 namespace raven {
@@ -26,6 +26,7 @@ namespace raven {
 			STRING,
 			STRING_NOT_END,
 			ALPHA,
+			COMMENT,
 			OTHER
 		};
 		
@@ -36,6 +37,7 @@ namespace raven {
 		std::stringstream buf;
 
 		void getLine();
+		bool fillQueue(int i);
 
 	};
 

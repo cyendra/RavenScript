@@ -138,6 +138,7 @@
     <ClCompile Include="SyntaxTree\Node.cpp" />
     <ClCompile Include="SyntaxTree\Statement.cpp" />
     <ClCompile Include="TestCase\TestTestTiger.cpp" />
+    <ClCompile Include="TestLexer.cpp" />
     <ClCompile Include="TestTiger\TestTiger.cpp" />
     <ClCompile Include="TestToken.cpp" />
     <ClCompile Include="Value\RaveArray.cpp" />

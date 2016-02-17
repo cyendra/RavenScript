@@ -83,7 +83,8 @@ catch(const EXCEPTION& e)																	\
 			public:																			\
 				static void RunUnitTest()													\
 				{																			\
-					raven::TestTiger::PrintMessage(#NAME);									\
+					raven::TestTiger::PrintMessage("==============================");		\
+					raven::TestTiger::PrintMessage(#NAME);								    \
 					TESTCASE_##NAME();														\
 				}																			\
 				TESTCASE_RUNNER_##NAME()													\

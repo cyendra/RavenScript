@@ -125,5 +125,8 @@
     <ClCompile Include="Lexer\Lexer.cpp">
       <Filter>源文件\Lexer</Filter>
     </ClCompile>
+    <ClCompile Include="TestLexer.cpp">
+      <Filter>源文件\TestCase</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
